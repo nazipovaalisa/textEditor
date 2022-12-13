@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="763.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.texteditor.HelloController">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="763.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.texteditor.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -37,7 +37,7 @@
                <RadioButton fx:id="black" layoutX="25.0" layoutY="14.0" mnemonicParsing="false" text="Black" toggleGroup="$color" />
             </children>
          </Pane>
-         <Label layoutX="211.0" text="TextEditor from Alice:)">
+         <Label layoutX="288.0" text="TextEditor">
             <font>
                <Font name="Georgia Bold Italic" size="24.0" />
             </font>
